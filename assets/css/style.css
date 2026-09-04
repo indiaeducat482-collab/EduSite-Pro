@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}
+header{background:#13294b;color:#fff;padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.brand{font-size:22px;font-weight:700}nav a{color:#fff;text-decoration:none;margin:0 8px}.wrap{max-width:1100px;margin:auto;padding:28px 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:#fff;padding:20px;border-radius:14px;box-shadow:0 4px 18px #00000012}
+input,textarea,select{width:100%;padding:12px;margin:7px 0;border:1px solid #d4dbe6;border-radius:8px}textarea{min-height:100px}
+button,.btn{display:inline-block;border:0;background:#1769e0;color:#fff;padding:11px 16px;border-radius:8px;cursor:pointer;text-decoration:none;font-weight:600}
+.danger{background:#d92d20}.muted{color:#667085}.item{border-top:1px solid #e7ebf0;padding:14px 0}.hero{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#173b6c,#1769e0);color:#fff}
+.hero h1{font-size:42px;margin:0 0 12px}.notice{padding:12px;border-radius:8px;background:#fff4e5;margin:10px 0}.ok{background:#e9f8ef}.hidden{display:none}
+@media(max-width:650px){.hero h1{font-size:30px}}
